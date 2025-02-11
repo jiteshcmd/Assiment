@@ -1,0 +1,150 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.f-color {
+  color: #0065a7;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.border-top {
+  border-top: 2px dotted rgb(241, 230, 9);
+  margin-left: -22px !important;
+}
+
+.border-bottom {
+  border-bottom: 2px dotted #dcdcdc;
+  margin-left: -22px !important;
+}
+
+.Top-tab {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tab-content {
+  width: 100% !important;
+}
+
+.StepButton-d0-0-2-6.active {
+  background-color: #fff7e6 !important;
+  color: #ffb200;
+}
+
+.StepButton-d0-0-2-6.completed {
+  background-color: #fce4b1 !important;
+  color: #ffb200;
+}
+
+.StepButton-d4-0-2-16.active {
+  background-color: #e9ecf1 !important;
+}
+.StepButton-d0-0-2-6 {
+  width: 4em;
+  height: 2em;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  margin: 0px;
+  display: flex;
+  padding: 0px;
+  font-size: 1em;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff7e6;
+  color: #ffb200;
+}
+.StepButton-d0-0-2-6 {
+  width: 2em;
+  border: none;
+  cursor: pointer;
+  height: 2em;
+  margin: 0px;
+  display: flex;
+  padding: 0px;
+  font-size: 1em;
+  align-items: center;
+  border-radius: 0% !important;
+  justify-content: center;
+  background-color: rgb(224, 224, 224);
+}
+.StepButton-d4-0-2-16 {
+  width: 2em;
+  border: none;
+  cursor: pointer;
+  height: 2em;
+  margin: 0px;
+  display: flex;
+  padding: 0px;
+  font-size: 1em;
+  align-items: center;
+  border-radius: 0% !important;
+  justify-content: center;
+  background-color: rgb(224, 224, 224);
+}
+.StepButton-d8-0-2-30 {
+  width: 2em;
+  border: none;
+  cursor: pointer;
+  height: 2em;
+  margin: 0px;
+  display: flex;
+  padding: 0px;
+  font-size: 1em;
+  align-items: center;
+  border-radius: 0% !important;
+  justify-content: center;
+  background-color: rgb(224, 224, 224);
+}
+.StepButton-d12-0-2-42 {
+  width: 2em;
+  border: none;
+  cursor: pointer;
+  height: 2em;
+  margin: 0px;
+  display: flex;
+  padding: 0px;
+  font-size: 1em;
+  align-items: center;
+  border-radius: 0% !important;
+  justify-content: center;
+  background-color: rgb(224, 224, 224);
+}
