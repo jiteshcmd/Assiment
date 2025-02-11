@@ -24,12 +24,13 @@ import { IoIosArrowUp } from "react-icons/io";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { MdDashboard } from "react-icons/md";
 import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
+import { MdCheckCircleOutline } from "react-icons/md";
 
 const MainContent = () => {
   return (
-    <div className="w-full">
-      <div class="grid grid-rows-4 grid-cols-[15%_83%] gap-4">
-        <div class="bg-white p-2">
+    <div className="w-full bg-slate-50 ">
+      <div className="grid grid-rows-4 grid-cols-[15%_83%] gap-4">
+        <Card className="bg-white p-2 rounded-none">
           <div className="p-3">
             <div className="flex p-2">
               <MdDashboard className="mt-1 mr-2" size={20} />
@@ -45,7 +46,7 @@ const MainContent = () => {
               </div>
             </div>
           </div>
-        </div>
+        </Card>
         <div class="p-4">
           <Card>
             <CardContent>
@@ -89,7 +90,16 @@ const MainContent = () => {
                   <div className="">
                     <Stepper
                       steps={[
-                        { label: "Interview Round 1" },
+                        {
+                          label: (
+                            <>
+                              Interview Round 1 <br />
+                              <span className="flex justify-center  text-sm text-gray-500">
+                                Completed<MdCheckCircleOutline  size={15} color="green" className="ml-1 mt-0.5"/>
+                              </span>
+                            </>
+                          ),
+                        },
                         { label: "Interview Round 2" },
                         { label: "Interview Round 3" },
                         { label: "Interview Round 4" },
