@@ -93,9 +93,16 @@ const MainContent = () => {
                         {
                           label: (
                             <>
-                              Interview Round 1 <br />
-                              <span className="flex justify-center  text-sm text-gray-500">
-                                Completed<MdCheckCircleOutline  size={15} color="green" className="ml-1 mt-0.5"/>
+                              <span className="flex justify-center  text-sm text-orange-400">
+                                Interview Round 1
+                              </span>{" "}
+                              <span className="flex justify-center  text-sm text-gray-400">
+                                Completed
+                                <MdCheckCircleOutline
+                                  size={15}
+                                  color="green"
+                                  className="ml-1 mt-0.5"
+                                />
                               </span>
                             </>
                           ),
